@@ -3,11 +3,11 @@ Monte Carlo valuation of European call options with pure Python
 """
 
 from time import time
-from math import exp, sqrt, log
+from math import exp, sqrt
 from random import gauss, seed
 
 
-seed(100000)
+seed(10000)
 t0 = time()
 
 S0 = 100.   # initial value
